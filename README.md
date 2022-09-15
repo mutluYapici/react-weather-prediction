@@ -44,7 +44,7 @@ This application coded via node.js to predict weather by using city name. The ap
    3- npm start
    
 
-#Author
+# Author
 
 Application coded and designed by M. Mutlu YAPICI
  
