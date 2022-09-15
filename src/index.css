@@ -1,0 +1,142 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  
+  margin-bottom: 0px !important;
+}
+
+h1 {
+  font-size:6rem;
+}
+
+h1 sup{
+ 
+  font-weight: normal;
+  top: -3px;
+  position: relative;
+}
+sup {
+  top: -0.5em !important;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color:transparent;
+  color: #fff;
+
+  
+
+}
+
+.app { 
+  background-image:url('./assets/cloudy.gif');
+  background-repeat:  no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left:0px;
+  top:0px;
+  margin: 0px;
+  padding: 4px 1px;
+}
+
+section{
+  background-color: RGBA(150,150,150,0.7);
+  padding: 3%;
+  margin:3%;
+  border:1px solid gainsboro;
+  border-radius: 25px;
+  position: relative;
+  
+}
+
+.sec1{
+  text-align: center;
+}
+.sec2{
+  text-align: left;
+}
+
+
+.pred{
+  border: 1px solid white;
+  border-width: 0px 0px 1px 0px;
+  padding:3px 2px ;
+}
+
+
+.pred p {
+  font-size: 1rem;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 2fr;
+  color:#222
+
+}
+
+.search{
+  text-align: center;
+  padding: 5px;
+  border: 0px;
+  background-color: transparent;
+  
+}
+input{
+  padding: 3px 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid RGBA(250,250,250,0.8);
+  width: 50%;
+  background: RGBA(140,140,140,0.6);
+  min-width: 250px;
+  color:white;
+}
+
+.icona{
+  width:80px;
+  height: auto;
+}
+
+
+
+.smalicona{
+  width:25px;
+  height: auto;
+}
+
+
+.accordion-body {
+  padding: 1rem 0.5rem !important;
+}
+
+.accordion-item {
+  background-color: transparent!important;
+}
+
+.columns p {
+  margin-bottom: 0.1rem 0rem !important;
+}
+
+.accordion-button {
+  padding: 0.5rem 1.5rem!important;
+}
